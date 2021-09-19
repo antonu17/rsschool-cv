@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>CV</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="row">
+      <div class="col">
+        <img src="images/photo.png" alt="Photo" width="189" height="250">
+      </div>
+      <div class="col">
+        <div>
+          Anton<br>
+          Ustyuzhanin
+        </div>
+        <div>Junior Frontend Engineer</div>
+        <address>
+          <a href="mailto:antonu17@gmail.com">antonu17@gmail.com</a>
+        </address>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Git</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li>Acting Platform Engineer</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Code Sample</h2>
+      <p>This is a code I wrote to solve
+        <a href="https://www.codewars.com/kata/585b1fafe08bae9988000314">Digits explosion</a>
+        task on codewars.
+      </p>
+      <pre>
+        function explode(s) {
+          let result = '';
+
+          for (let c of s) {
+            for (let i = 0; i &lt; +c; i++) {
+              result += c
+            }
+          }
+
+          return result;
+        }
+      </pre>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" width="360"
+        height="95"></a>
+    <address>
+      <a href="https://github.com/antonu17">https://github.com/antonu17</a>
+    </address>
+    <time datetime="2021-09-18">2021</time>
+  </footer>
+
+</body>
+
+</html>
