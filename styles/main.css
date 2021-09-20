@@ -101,7 +101,7 @@ address a {
 
 footer {
   background-color: #303032;
-  color: #6f6a6a;
+  color: #b8b8b8;
 }
 
 .footer-left {
@@ -176,7 +176,6 @@ footer .col {
   }
   footer {
     text-align: center;
-    color: #b8b8b8;
   }
   footer address a {
     color: #b8b8b8;
