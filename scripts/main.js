@@ -30,6 +30,5 @@ let validator = {
 })();
 
 function toggleBurger() {
-  let burger = document.getElementById("burger");
-  burger.style.display = burger.style.display === 'block' ? 'none' : 'block';
+  document.getElementById("burger").classList.toggle('responsive');
 }
