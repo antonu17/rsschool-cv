@@ -12,7 +12,7 @@ let validator = {
 
 (function reportSelfCheck() {
   validator.add(10, 'вёрстка валидная');
-  validator.add(16, 'вёрстка семантическая: header, main, footer, figure, section, address, time, h2');
+  validator.add(18, 'вёрстка семантическая: nav, header, main, footer, figure, section, address, time, h2');
   validator.add(10, 'для оформления СV используются css-стили');
   validator.add(10, 'контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет, если он есть, тянется во всю ширину страницы');
   validator.add(10, 'вёрстка адаптивная');
