@@ -11,6 +11,21 @@
 
 <body>
   <div class="container">
+    <div class="topnav">
+      <a href="#bio" class="active">CV</a>
+      <nav id="burger">
+        <a href="#contacts">Contacts</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#language">Languages</a>
+        <a href="#code">Code Sample</a>
+      </nav>
+      <a href="javascript:void(0);" class="active icon" onclick="toggleBurger()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
     <div class="row">
       <div class="col left">
         <header>
@@ -23,12 +38,12 @@
           <div class="cv-title">Junior Frontend Engineer</div>
         </header>
 
-        <section>
+        <section id="bio">
           <h2>Bio</h2>
           <p>Platform Engineer focusing on Cloud Infrastructure, Automation, Networking and Security.</p>
         </section>
 
-        <section>
+        <section id="contacts">
           <h2>Contacts</h2>
           <address>
             <ul>
@@ -42,7 +57,7 @@
 
       <div class="col right">
         <main>
-          <section>
+          <section id="skills">
             <h2>Skills</h2>
             <ul>
               <li>HTML</li>
@@ -54,7 +69,7 @@
             </ul>
           </section>
 
-          <section>
+          <section id="experience">
             <h2>Experience</h2>
             <ul>
               <li>Networking Engineer</li>
@@ -63,7 +78,7 @@
             </ul>
           </section>
 
-          <section>
+          <section id="education">
             <h2>Education</h2>
             <ul>
               <li>Master of Computer Science</li>
@@ -71,7 +86,7 @@
             </ul>
           </section>
 
-          <section>
+          <section id="language">
             <h2>Languages</h2>
             <ul>
               <li>English - B2</li>
@@ -80,7 +95,7 @@
             </ul>
           </section>
 
-          <section>
+          <section id="code">
             <h2>Code Sample</h2>
             <p>This is a code I wrote to solve
               <a href="https://www.codewars.com/kata/585b1fafe08bae9988000314">Digits explosion</a> task on codewars.

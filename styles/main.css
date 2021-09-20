@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #cccccc;
   margin: 0;
@@ -106,6 +110,37 @@ footer {
 
 footer .col {
   padding: 20px;
+}
+
+/* Burger menu */
+.topnav {
+  overflow: hidden;
+  background-color: #303032;
+  position: relative;
+}
+.topnav #burger {
+  display: none;
+}
+.topnav a {
+  color: #b8b8b8;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color: #999999;
+  color: black;
+}
+.active {
+  background-color: #303032;
+  color: #b6b6b6;
 }
 
 @media only screen and (max-width: 960px) {
