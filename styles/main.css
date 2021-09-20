@@ -54,14 +54,11 @@ section>h2 {
   font-size: 1.4em;
 }
 
-section>h2::before {
+section>h2::after {
   content: "";
   border-bottom: #f50028 6px solid;
-  height: 0px;
-  width: 60px;
-  top: 1.8em;
-  position: relative;
   display: block;
+  width: 60px;
 }
 
 .left section>h2 {
